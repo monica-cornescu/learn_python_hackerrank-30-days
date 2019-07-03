@@ -23,7 +23,7 @@ class Person:
 
 t = int(input('give me a number, < 5: '))
 for i in range(0, t):
-    age = int(input('I\'ll as you to give me a number x times: '))
+    age = int(input('I\'ll ask you %d times to give me an age: ' % (t)))
     p = Person(age)
     p.amIOld()
     for j in range(0, 3):

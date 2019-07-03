@@ -8,7 +8,7 @@ for i in range(t):
     S = str(input())
     Slength = len(S)
     S_odd = ''
-    S_even =''
+    S_even = ''
 
     for j in range(Slength):
         if (j == 0) or (j % 2 == 0):

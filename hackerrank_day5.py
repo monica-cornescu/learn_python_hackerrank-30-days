@@ -9,7 +9,7 @@ import sys
 
 
 if __name__ == '__main__':
-    n = int(input('Please provie a number between 2 and 20 and you\'ll get its multiples till 10: '))
+    n = int(input('Please provide a number between 2 and 20 and you\'ll get its multiples till 10: '))
 
 for i in range(1,11):
     multiple = n * i
